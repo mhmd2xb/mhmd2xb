@@ -4,10 +4,6 @@
   </a>
 </p>
 
-<p align="center">
-  <img src="rgb-divider.svg" width="100%" alt="RGB Divider">
-</p>
-
 <picture align="center">
   <source
     media="(prefers-color-scheme: dark)"
