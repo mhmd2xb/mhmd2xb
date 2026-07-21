@@ -1,75 +1,101 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 20" width="1200" height="20">
+<svg xmlns="http://www.w3.org/2000/svg"
+     viewBox="0 0 1200 20"
+     width="1200"
+     height="20">
 
-    <defs>
+<defs>
 
-        <!-- Moving RGB -->
-        <linearGradient id="rgb" x1="0%" y1="0%" x2="100%" y2="0%">
+    <!-- Nebula Moving Gradient -->
+    <linearGradient id="nebulaGradient"
+        x1="0%"
+        y1="0%"
+        x2="100%"
+        y2="0%">
 
-            <stop offset="0%" stop-color="#ff0000"/>
-            <stop offset="16%" stop-color="#ff8000"/>
-            <stop offset="32%" stop-color="#ffff00"/>
-            <stop offset="48%" stop-color="#00ff00"/>
-            <stop offset="64%" stop-color="#00ffff"/>
-            <stop offset="80%" stop-color="#0066ff"/>
-            <stop offset="100%" stop-color="#ff00ff"/>
+        <stop offset="0%"
+              stop-color="#6A00FF"/>
 
-            <animateTransform
-                attributeName="gradientTransform"
-                attributeType="XML"
-                type="translate"
-                from="-1 0"
-                to="1 0"
-                dur="2s"
-                repeatCount="indefinite"/>
+        <stop offset="25%"
+              stop-color="#00D9FF"/>
 
-        </linearGradient>
+        <stop offset="50%"
+              stop-color="#FF00C8"/>
 
-        <!-- Strong Neon Glow -->
-        <filter id="glow" x="-40%" y="-300%" width="180%" height="700%">
+        <stop offset="75%"
+              stop-color="#7B2CFF"/>
 
-            <feGaussianBlur stdDeviation="2" result="b1"/>
-            <feGaussianBlur stdDeviation="5" result="b2"/>
-            <feGaussianBlur stdDeviation="9" result="b3"/>
+        <stop offset="100%"
+              stop-color="#00FFE5"/>
 
-            <feMerge>
-                <feMergeNode in="b3"/>
-                <feMergeNode in="b2"/>
-                <feMergeNode in="b1"/>
-                <feMergeNode in="SourceGraphic"/>
-            </feMerge>
 
-        </filter>
-
-    </defs>
-
-    <!-- Background -->
-    <rect width="1200" height="20" fill="transparent"/>
-
-    <!-- RGB Strip -->
-    <rect
-        x="0"
-        y="8"
-        width="1200"
-        height="4"
-        rx="3"
-        fill="url(#rgb)"
-        filter="url(#glow)">
-
-        <animate
-            attributeName="opacity"
-            values="0.75;1;0.75"
-            dur="1.5s"
+        <animateTransform
+            attributeName="gradientTransform"
+            type="translate"
+            values="-1 0;1 0;-1 0"
+            dur="18s"
             repeatCount="indefinite"/>
 
-    </rect>
+    </linearGradient>
 
-    <!-- Moving Shine -->
-    <circle r="6" cy="10" fill="#ffffff" filter="url(#glow)">
-        <animate
-            attributeName="cx"
-            values="-40;1240"
-            dur="2s"
-            repeatCount="indefinite"/>
-    </circle>
+
+    <!-- Deep Space Glow -->
+    <filter id="nebulaGlow"
+        x="-50%"
+        y="-400%"
+        width="200%"
+        height="900%">
+
+        <feGaussianBlur
+            stdDeviation="3"
+            result="blur1"/>
+
+        <feGaussianBlur
+            stdDeviation="8"
+            result="blur2"/>
+
+        <feMerge>
+
+            <feMergeNode in="blur2"/>
+            <feMergeNode in="blur1"/>
+            <feMergeNode in="SourceGraphic"/>
+
+        </feMerge>
+
+    </filter>
+
+
+</defs>
+
+
+<!-- Soft Nebula Aura -->
+<rect
+    x="0"
+    y="8"
+    width="1200"
+    height="4"
+    rx="5"
+    fill="url(#nebulaGradient)"
+    opacity="0.45"
+    filter="url(#nebulaGlow)"/>
+
+
+<!-- Main Nebula Line -->
+<rect
+    x="0"
+    y="9"
+    width="1200"
+    height="2"
+    rx="3"
+    fill="url(#nebulaGradient)"
+    filter="url(#nebulaGlow)">
+
+    <animate
+        attributeName="opacity"
+        values="0.6;1;0.6"
+        dur="6s"
+        repeatCount="indefinite"/>
+
+</rect>
+
 
 </svg>
