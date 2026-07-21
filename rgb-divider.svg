@@ -1,30 +1,138 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="8" viewBox="0 0 1200 8">
-  <defs>
-    <linearGradient id="rainbow" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#ff0000">
-        <animate attributeName="stop-color"
-                 values="#ff0000;#ff00ff;#0000ff;#00ffff;#00ff00;#ffff00;#ff0000"
-                 dur="5s"
-                 repeatCount="indefinite"/>
-      </stop>
-      <stop offset="100%" stop-color="#00ffff">
-        <animate attributeName="stop-color"
-                 values="#00ffff;#00ff00;#ffff00;#ff0000;#ff00ff;#0000ff;#00ffff"
-                 dur="5s"
-                 repeatCount="indefinite"/>
-      </stop>
-    </linearGradient>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 32" width="1200" height="32">
 
-    <filter id="glow">
-      <feGaussianBlur stdDeviation="3.5" result="blur"/>
-      <feMerge>
-        <feMergeNode in="blur"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
-    </filter>
-  </defs>
+    <defs>
 
-  <rect width="1200" height="4" y="2"
-        fill="url(#rainbow)"
-        filter="url(#glow)"/>
+        <!-- Nebula Gradient -->
+        <linearGradient id="nebula" x1="0%" y1="0%" x2="100%" y2="0%">
+
+            <stop offset="0%" stop-color="#5B2EFF"/>
+            <stop offset="25%" stop-color="#00D9FF"/>
+            <stop offset="50%" stop-color="#FF2EC4"/>
+            <stop offset="75%" stop-color="#6A00FF"/>
+            <stop offset="100%" stop-color="#00FFE5"/>
+
+            <animateTransform
+                attributeName="gradientTransform"
+                attributeType="XML"
+                type="translate"
+                values="-1 0;1 0;-1 0"
+                dur="14s"
+                repeatCount="indefinite"/>
+
+        </linearGradient>
+
+        <!-- Soft Glow -->
+        <filter id="glow" x="-60%" y="-400%" width="220%" height="900%">
+
+            <feGaussianBlur stdDeviation="5" result="b1"/>
+            <feGaussianBlur stdDeviation="10" result="b2"/>
+            <feGaussianBlur stdDeviation="18" result="b3"/>
+
+            <feMerge>
+                <feMergeNode in="b3"/>
+                <feMergeNode in="b2"/>
+                <feMergeNode in="b1"/>
+                <feMergeNode in="SourceGraphic"/>
+            </feMerge>
+
+        </filter>
+
+        <!-- Nebula Cloud -->
+        <radialGradient id="cloud">
+            <stop offset="0%" stop-color="#ffffff" stop-opacity="0.7"/>
+            <stop offset="50%" stop-color="#a855ff" stop-opacity="0.35"/>
+            <stop offset="100%" stop-color="#000000" stop-opacity="0"/>
+        </radialGradient>
+
+    </defs>
+
+    <!-- Main Line -->
+    <rect
+        x="0"
+        y="14"
+        width="1200"
+        height="4"
+        rx="3"
+        fill="url(#nebula)"
+        filter="url(#glow)">
+
+        <animate
+            attributeName="opacity"
+            values="0.75;1;0.75"
+            dur="5s"
+            repeatCount="indefinite"/>
+
+    </rect>
+
+    <!-- Nebula Clouds -->
+
+    <ellipse cx="180" cy="16" rx="80" ry="12"
+        fill="url(#cloud)"
+        opacity="0.45">
+
+        <animate attributeName="cx"
+            values="150;220;150"
+            dur="18s"
+            repeatCount="indefinite"/>
+
+    </ellipse>
+
+    <ellipse cx="620" cy="16" rx="120" ry="14"
+        fill="#00E5FF"
+        opacity="0.18"
+        filter="url(#glow)">
+
+        <animate attributeName="cx"
+            values="650;560;650"
+            dur="16s"
+            repeatCount="indefinite"/>
+
+    </ellipse>
+
+    <ellipse cx="980" cy="16" rx="90" ry="13"
+        fill="#FF2EC4"
+        opacity="0.22"
+        filter="url(#glow)">
+
+        <animate attributeName="cx"
+            values="950;1040;950"
+            dur="20s"
+            repeatCount="indefinite"/>
+
+    </ellipse>
+
+    <!-- Twinkling Stars -->
+
+    <g fill="white">
+
+        <circle cx="130" cy="6" r="1">
+            <animate attributeName="opacity"
+                values="0;1;0"
+                dur="2s"
+                repeatCount="indefinite"/>
+        </circle>
+
+        <circle cx="390" cy="28" r="1.3">
+            <animate attributeName="opacity"
+                values="1;0;1"
+                dur="3s"
+                repeatCount="indefinite"/>
+        </circle>
+
+        <circle cx="770" cy="5" r="1">
+            <animate attributeName="opacity"
+                values="0;1;0"
+                dur="2.8s"
+                repeatCount="indefinite"/>
+        </circle>
+
+        <circle cx="1080" cy="26" r="1.2">
+            <animate attributeName="opacity"
+                values="1;0;1"
+                dur="2.5s"
+                repeatCount="indefinite"/>
+        </circle>
+
+    </g>
+
 </svg>
