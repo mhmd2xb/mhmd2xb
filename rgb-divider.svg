@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="8" viewBox="0 0 1200 8">
+  <defs>
+    <linearGradient id="rainbow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ff0000">
+        <animate attributeName="stop-color"
+                 values="#ff0000;#ff00ff;#0000ff;#00ffff;#00ff00;#ffff00;#ff0000"
+                 dur="5s"
+                 repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" stop-color="#00ffff">
+        <animate attributeName="stop-color"
+                 values="#00ffff;#00ff00;#ffff00;#ff0000;#ff00ff;#0000ff;#00ffff"
+                 dur="5s"
+                 repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3.5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="4" y="2"
+        fill="url(#rainbow)"
+        filter="url(#glow)"/>
+</svg>
