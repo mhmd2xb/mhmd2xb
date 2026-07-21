@@ -1,30 +1,69 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="8" viewBox="0 0 1200 8">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="14" viewBox="0 0 1200 14">
+
   <defs>
-    <linearGradient id="rainbow" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#ff0000">
+
+    <!-- RGB Gradient -->
+    <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ff0055">
         <animate attributeName="stop-color"
-                 values="#ff0000;#ff00ff;#0000ff;#00ffff;#00ff00;#ffff00;#ff0000"
-                 dur="5s"
+                 values="#ff0055;#ff00ff;#0066ff;#00ffff;#00ff66;#ffff00;#ff5500;#ff0055"
+                 dur="6s"
                  repeatCount="indefinite"/>
       </stop>
-      <stop offset="100%" stop-color="#00ffff">
+
+      <stop offset="50%" stop-color="#00ffff">
         <animate attributeName="stop-color"
-                 values="#00ffff;#00ff00;#ffff00;#ff0000;#ff00ff;#0000ff;#00ffff"
-                 dur="5s"
+                 values="#00ffff;#00ff66;#ffff00;#ff5500;#ff0055;#ff00ff;#0066ff;#00ffff"
+                 dur="6s"
                  repeatCount="indefinite"/>
       </stop>
+
+      <stop offset="100%" stop-color="#ff00ff">
+        <animate attributeName="stop-color"
+                 values="#ff00ff;#0066ff;#00ffff;#00ff66;#ffff00;#ff5500;#ff0055;#ff00ff"
+                 dur="6s"
+                 repeatCount="indefinite"/>
+      </stop>
+
+      <animateTransform
+        attributeName="gradientTransform"
+        type="translate"
+        values="-1 0;1 0;-1 0"
+        dur="4s"
+        repeatCount="indefinite"/>
     </linearGradient>
 
-    <filter id="glow">
-      <feGaussianBlur stdDeviation="3.5" result="blur"/>
+    <!-- Neon Glow -->
+    <filter id="glow" x="-40%" y="-200%" width="180%" height="500%">
+      <feGaussianBlur stdDeviation="2" result="blur1"/>
+      <feGaussianBlur stdDeviation="5" result="blur2"/>
+      <feGaussianBlur stdDeviation="9" result="blur3"/>
+
       <feMerge>
-        <feMergeNode in="blur"/>
+        <feMergeNode in="blur3"/>
+        <feMergeNode in="blur2"/>
+        <feMergeNode in="blur1"/>
         <feMergeNode in="SourceGraphic"/>
       </feMerge>
     </filter>
+
   </defs>
 
-  <rect width="1200" height="4" y="2"
-        fill="url(#rainbow)"
-        filter="url(#glow)"/>
+  <!-- Main Line -->
+  <rect
+      x="0"
+      y="5"
+      width="1200"
+      height="4"
+      rx="2"
+      fill="url(#gradient)"
+      filter="url(#glow)">
+
+      <animate attributeName="opacity"
+               values="0.75;1;0.75"
+               dur="2s"
+               repeatCount="indefinite"/>
+
+  </rect>
+
 </svg>
