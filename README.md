@@ -50,10 +50,14 @@
 <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Press+Start+2P&pause=1000&color=F70000&repeat=false&width=435&lines=Socials%3A" alt="Typing SVG" /></a>
 
 <p align="left">
-<a href="https://t.me/mhmdbx" target="_blank" rel="noreferrer"><img src="https://github.com/mhmd2xb/mhmd2xb/blob/main/icons8-telegram-app.gif" width="32" height="32" /></
-a>
-<a href="https://instagram.com/mhmd2xb" target="_blank" rel="noreferrer"><img src="https://github.com/mhmd2xb/mhmd2xb/blob/main/icons8-instagram.gif" width="32" height="32" /></
-a>
-<a href="https://www.linkedin.com/in/mohammad-bagheri-50a10a3b4 " target="_blank" rel="noreferrer"><img src="https://github.com/mhmd2xb/mhmd2xb/blob/main/icons8-linkedin-circled.gif" width="32" height="32" /></
+<a href="https://t.me/mhmdbx" target="_blank" rel="noreferrer"><img src="https://github.com/mhmd2xb/mhmd2xb/blob/main/icons8-telegram-logo-94.png" width="64" height="64" /></
+a><a href="https://instagram.com/mhmd2xb" target="_blank" rel="noreferrer"><img src="https://github.com/mhmd2xb/mhmd2xb/blob/main/icons8-instagram-logo-94.png" width="64" height="64" /></
+a><a href="https://www.linkedin.com/in/mohammad-bagheri-50a10a3b4 " target="_blank" rel="noreferrer"><img src="https://github.com/mhmd2xb/mhmd2xb/blob/main/icons8-linkedin-logo-94.png" width="64" height="64" /></
 a>
 </p>
+
+<p align="center">
+  <img src="rgb-divider.svg" width="100%" alt="RGB Divider">
+</p>
+
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Press+Start+2P&pause=1000&color=F70000&repeat=false&width=435&lines=Support+Me%3A" alt="Typing SVG" /></a>
