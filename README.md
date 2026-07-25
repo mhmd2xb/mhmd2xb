@@ -27,11 +27,11 @@
 
 <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Press+Start+2P&size=20&pause=1000&color=2BCA2AFF&repeat=false&width=470&height=80&lines=About+Me:" alt="Typing SVG" /></a>
 
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Story+Script&size=30&pause=1000&color=39EBF7FF&center=true&repeat=false&width=445&height=70&lines=CS+and+Mathematics+Student+of+Ferdowsi" alt="Typing SVG" /></a>
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Story+Script&size=30&pause=1000&color=2863FFFF&center=true&repeat=false&width=445&height=70&lines=CS+and+Mathematics+Student+of+Ferdowsi" alt="Typing SVG" /></a>
 
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Story+Script&size=30&pause=1000&color=39EBF7FF&center=true&repeat=false&width=700&height=70&lines=Learning+Backend+Development+with+Python+%26+Django" alt="Typing SVG" /></a>
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Story+Script&size=30&pause=1000&color=2863FFFF&center=true&repeat=false&width=700&height=70&lines=Learning+Backend+Development+with+Python+%26+Django" alt="Typing SVG" /></a>
 
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Story+Script&size=30&pause=1000&color=39EBF7FF&center=true&repeat=false&width=460&height=70&lines=Building+Projects+.+.+.+" alt="Typing SVG" /></a>
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Story+Script&size=30&pause=1000&color=2863FFFF&center=true&repeat=false&width=460&height=70&lines=Building+Projects+.+.+.+" alt="Typing SVG" /></a>
 
 <p align="center">
   <img src="rgb-divider.svg" width="100%" alt="RGB Divider">
