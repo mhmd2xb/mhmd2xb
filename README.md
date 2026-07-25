@@ -37,22 +37,22 @@
   <img src="rgb-divider.svg" width="100%" alt="RGB Divider">
 </p>
 
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Press+Start+2P&size=20&pause=1000&color=2BCA2AFF&repeat=false&width=435&lines=My+Skills%3A" alt="Typing SVG" /></a>
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Press+Start+2P&size=20&pause=1000&color=2BCA2AFF&repeat=false&width=435&lines=Stats%3A" alt="Typing SVG" /></a>
+
+[![GitHub Stats](https://github-stats-extended.vercel.app/api?username=mhmd2xb&rank_icon=github&show_icons=true&include_all_commits=true&theme=transparent)](https://github-stats-extended.vercel.app/api?username=mhmd2xb&rank_icon=github&show_icons=true&include_all_commits=true&theme=transparent)
+[![GitHub Stats](https://github-stats-extended.vercel.app/api/top-langs?username=mhmd2xb&layout=donut&langs_count=4&theme=transparent)](https://github-stats-extended.vercel.app/api/top-langs?username=mhmd2xb&layout=donut&langs_count=4&theme=transparent)
+
+<p align="center">
+  <img src="rgb-divider.svg" width="100%" alt="RGB Divider">
+</p>
+
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Press+Start+2P&size=20&pause=1000&color=2BCA2AFF&repeat=false&width=435&lines=Skills%3A" alt="Typing SVG" /></a>
 
 <p align="center">
   <a href="https://skillicons.dev">
     <img src="https://skillicons.dev/icons?i=git,github,gitlab,matlab,cpp,py,django" />
   </a>
 </p>
-
-<p align="center">
-  <img src="rgb-divider.svg" width="100%" alt="RGB Divider">
-</p>
-
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Press+Start+2P&size=20&pause=1000&color=2BCA2AFF&repeat=false&width=435&lines=GitHub+Stats%3A" alt="Typing SVG" /></a>
-
-[![GitHub Stats](https://github-stats-extended.vercel.app/api?username=mhmd2xb&rank_icon=github&show_icons=true&include_all_commits=true&theme=transparent)](https://github-stats-extended.vercel.app/api?username=mhmd2xb&rank_icon=github&show_icons=true&include_all_commits=true&theme=transparent)
-[![GitHub Stats](https://github-stats-extended.vercel.app/api/top-langs?username=mhmd2xb&layout=donut&langs_count=4&theme=transparent)](https://github-stats-extended.vercel.app/api/top-langs?username=mhmd2xb&layout=donut&langs_count=4&theme=transparent)
 
 <p align="center">
   <img src="rgb-divider.svg" width="100%" alt="RGB Divider">
