@@ -51,10 +51,8 @@
 
 <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Press+Start+2P&size=20&pause=1000&color=2BCA2AFF&repeat=false&width=435&lines=GitHub+Stats%3A" alt="Typing SVG" /></a>
 
-<a href="https://github.com/mhmd2xb">
-  <img src="https://github-stats-extended.vercel.app/api?username=mhmd2xb&show_icons=true&theme=dark" />
-  <img src="https://github-stats-extended.vercel.app/api/top-langs/?username=mhmd2xb&theme=dark" />
-</a>
+[![GitHub Stats](https://github-stats-extended.vercel.app/api?username=mhmd2xb&rank_icon=github&show_icons=true&include_all_commits=true&theme=transparent)](https://github-stats-extended.vercel.app/api?username=mhmd2xb&rank_icon=github&show_icons=true&include_all_commits=true&theme=transparent)
+[![GitHub Stats](https://github-stats-extended.vercel.app/api/top-langs?username=mhmd2xb&layout=donut&langs_count=4&theme=transparent)](https://github-stats-extended.vercel.app/api/top-langs?username=mhmd2xb&layout=donut&langs_count=4&theme=transparent)
 
 <p align="center">
   <img src="rgb-divider.svg" width="100%" alt="RGB Divider">
