@@ -67,7 +67,7 @@ a><a href="https://www.linkedin.com/in/mohammad-bagheri-50a10a3b4 " target="_bla
 a>
 </p>
 
-<p align="center">
+<!-- <p align="center">
   <img src="rgb-divider.svg" width="100%" alt="RGB Divider">
 </p>
 
@@ -75,4 +75,4 @@ a>
 
 <p align="center">
 <a href="https://www.coffeebede.com/mhmd2xb"><img class="img-fluid" src="https://coffeebede.ir/DashboardTemplateV2/app-assets/images/banner/default-yellow.svg" width="250" /></a>
-</p>
+</p> -->
