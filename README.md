@@ -50,7 +50,7 @@
 
 <p align="center">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=git,github,gitlab,matlab,cpp,py,django" />
+    <img src="https://skillicons.dev/icons?i=git,github,gitlab,matlab,cpp,py,django,html,css" />
   </a>
 </p>
 
